@@ -16,8 +16,17 @@ int main() {
 		cout << "Okay, we'll start installing.\n";
 	}
 	else if (welcomeWizard == "n") {
+		string validateUser
+		
 		// Code when user inputs something, insert code here
-		cout << "Okay, we'll wait for you.\n";
+		cout << "Are you sure? Y/N";
+		cin >> validateUser;
+		
+		if (validateUser == "y") {
+			cout << "Okay, bye!"
+		} else if (validateUser == "n") {
+			// Back to the install question
+		}
 	}
 	else {
 		// Code when nothing matches, insert code here
