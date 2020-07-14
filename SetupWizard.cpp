@@ -11,14 +11,17 @@ int main() {
 
 	cin >> welcomeWizard;
 
-	if (welcomeWizard == "User input") {
+	if (welcomeWizard == "y") {
 		// Code when user inputs something, insert code here
+		cout << "Okay, we'll start installing.\n";
 	}
-	else if (welcomeWizard == "User input") {
+	else if (welcomeWizard == "n") {
 		// Code when user inputs something, insert code here
+		cout << "Okay, we'll wait for you.\n";
 	}
 	else {
 		// Code when nothing matches, insert code here
+		cout << "You have entered an invalid character.\n"
 	}
 
 	// End of code, so far
